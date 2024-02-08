@@ -1,0 +1,5 @@
+User-agent: yandex
+disallow: /about/*
+disallow: /contact
+
+Sitemap: https://site.com/sitemap

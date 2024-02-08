@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en"> <!-- Указание языка -->
+<head>
+    <meta charset="UTF-8"><!-- кодировка -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- То, что попадает в область видимости пользователя -->
+    <title>Document</title> <!-- То,что отображается в поисковой выдаче и в браузере. По нему идет ранжирование, должны быть ключевые слова -->
+    <meta name="description" content="Описание "> <!-- Описание сайта, в поисковой выдаче в браузере. Должны быть ключевые слова-->
+    <meta name="keywords" content="JS, JavaScript"> <!-- Мнения - он никак не учитывается уже -->
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website"> 
+    <meta property="og:url" content="https://ya.ru"> 
+    <meta property="og:title" content="заголовок, который будет отображаться в соц сети"> 
+    <meta property="og:description" content="Описание"> 
+    <meta property="og:image" content="https://link_on_image"> 
+
+    <!-- robots -->
+
+    <meta name="robots" content="index"> <!-- Значение по-умолчанию. Робот будет индексировать страницу -->
+    <meta name="robots" content="noindex"> <!-- не будет индексировать стр -->
+    <meta name="robots" content="follow"><!-- Значение по-умолчанию. Робот будет ходить по ссылкам внутри сайта -->
+    <meta name="robots" content="nofollow"> <!--Робот НЕ будет ходить по ссылкам внутри сайта -->
+    <meta name="robots" content="all"> <!-- задает положительное значение для вышеперечисленных параметров-->
+
+    <meta name="googlebot" content="index"> <!-- можем запретить индексирование (или другое) для определенных браузеров-->
+    <meta name="yandex" content="noindex">
+</head>
+<body>
+    <!-- Семантика -->
+    <h1></h1> <!-- h1 заголовок на страницу должен быть ОДИН -->
+    <header></header>
+    <button class="button"></button>
+    <footer></footer>
+    <img src="" alt="" srcset="400x400.png 500w, 700x700.png 790w"> <!--srcset - указание размеров изображений для разных устройств -->
+</body>
+</html>
